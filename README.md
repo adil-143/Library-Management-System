@@ -79,7 +79,7 @@ CREATE TABLE books (
 );
 ```
 
-###3️⃣ Create Members Table
+### 3️⃣ Create Members Table
 ```SQL
 CREATE TABLE members (
     member_id INT AUTO_INCREMENT PRIMARY KEY,
@@ -89,7 +89,7 @@ CREATE TABLE members (
 );
 ```
 
-###4️⃣ Create Transactions Table
+### 4️⃣ Create Transactions Table
 ```SQL
 CREATE TABLE transactions (
     transaction_id INT AUTO_INCREMENT PRIMARY KEY,
@@ -101,14 +101,14 @@ CREATE TABLE transactions (
 );
 ```
 
-##▶️ How to Run
+## ▶️ How to Run
 
-###1️⃣ Compile
+### 1️⃣ Compile
 ```Bash
 javac -cp ".;mysql-connector-j-9.6.0.jar" -d . src\db\*.java src\dao\*.java src\ui\*.java src\Main.java
 ```
 
-###2️⃣ Run
+### 2️⃣ Run
 ```Bash
 java -cp ".;mysql-connector-j-9.6.0.jar" Main
 ```
@@ -121,7 +121,7 @@ Database name matches in DBConnection.java
 
 MySQL connector JAR is in project root
 
-🎯 Key Highlights
+## 🎯 Key Highlights
 
 Proper DAO Architecture
 
@@ -135,7 +135,7 @@ Business logic separated from UI
 
 Fine calculation using date difference logic
 
-📌 Future Improvements
+## 📌 Future Improvements
 
 Login Authentication
 
@@ -149,7 +149,7 @@ Maven Conversion
 
 Modern UI Styling
 
-👨‍💻 Author
+## 👨‍💻 Author
 
 Mohd Adil Ansari
 
