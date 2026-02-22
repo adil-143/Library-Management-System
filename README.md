@@ -46,3 +46,14 @@ This application allows efficient management of books, members, and transactions
 ---
 
 ## 🏗️ Project Structure
+Library-Management-System/<br>
+│<br>
+├── src/<br>
+│ ├── db/ # Database connection<br>
+│ ├── dao/ # Data Access Objects<br>
+│ ├── ui/ # Swing UI Frames<br>
+│ └── Main.java<br>
+│<br>
+├── .gitignore<br>
+└── README.md<br>
+<br>
